@@ -13,7 +13,7 @@ export const About = () => {
                     <h2 className="text-4xl font-semibold mb-8 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] bg-clip-text text-transparent text-center">About Me</h2>
 
                     <div className = "rounded-xl p-8 border-[var(--text-primary)]/50 border hover:-translate-y-1 transition-all">
-                        <p className = "mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, necessitatibus? Placeat cupiditate exercitationem doloremque doloribus quia aliquid aperiam dolores, molestias assumenda ratione earum quos impedit inventore maiores iusto enim hic?</p>
+                        <p className = "mb-6">I'm Sean, a recent college graduate with a strong foundation in data analytics. I'm passionate about transforming data into insights and solutions. Through a diverse range of coursework and hands-on experience, I've worked with a wide range of programming languages, tools, and software. I'm excited to apply these skills to help organizations make informed decisions and lead to success.</p>
                         <div className = "grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className = "text-xl font-semibold mb-4">Languages</h3>
@@ -45,10 +45,13 @@ export const About = () => {
                                     <strong>University of Wisconsin - Madison</strong> (2021 - 2025)
                                 </li>
                                 <li>
-                                    <i>Majors:</i> Computer Science, Data Science, Economics
+                                    <i>Majors:</i> Computer Science, Data Science, Economics (3.94 GPA)
                                 </li>
                                 <li>
                                     <i>Relevant Coursework:</i> Data Structures & Algorithms, Artificial Intelligence, Database Management Systems, Data Science Modeling, Data Visualization, Econometrics
+                                </li>
+                                <li>
+                                    <i>Extra Curriculars:</i> Madison Esports Club (Treasurer), Euchre Club (Treasurer), Artificial Intelligence Club, WUD Games, Cheese Club, Econ Salon
                                 </li>
                             </ul>
                         </div>
@@ -56,11 +59,11 @@ export const About = () => {
                             <h3 className = "text-xl font-semibold mb-4">Experience</h3>
                             <div className = "space-y-4">
                                 <div>
-                                    <h4 className = "font-semibold">Intern Analyst at The McHugh Group, LLC</h4>
-                                    <p>Analyzed client data to create a comprehensive report highlighting business growth and used historical stock market data to identify potential technology sector investments.</p>
+                                    <h4><strong>Intern Analyst at The McHugh Group, LLC</strong> <i>(Summer 2024)</i></h4>
+                                    <p>Analyzed client data to develop a comprehensive business report and used historical stock market data to identify potential investment opportunities in the technology sector.</p>
                                     <div className="my-4" />
-                                    <h4 className = "font-semibold">Digital IT Intern at Parker Hannifin</h4>
-                                    <p>Automated expiring website alerts and project information extraction. Also created dashboards in Power BI for sprint planning.</p>
+                                    <h4><strong>Digital IT Intern at Parker Hannifin</strong> <i>(Summer 2023)</i></h4>
+                                    <p>Automated repetitive tasks using Azure, including notifications for expiring website certificates and extraction of project data. Also developed Power BI dashboards to support sprint planning.</p>
                                 </div>
 
                             </div>
