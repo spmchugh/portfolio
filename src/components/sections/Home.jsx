@@ -12,11 +12,11 @@ export const Home = () => {
                         I am a recent graduate with a background in Computer Science, Data Science, and Economics. I am seeking full-time opportunities in data analytics, financial or business analysis, investment research, database management, logistics, and related fields.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-                        <a href="https://www.linkedin.com/in/sean-mchugh-p/" className="w-3/4 text-center bg-[var(--accent-primary)] text-[var(--text-primary)] py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/sean-mchugh-p/" className="w-3/4 text-center bg-[var(--accent-primary)] text-[var(--text-button)] py-3 px-6 rounded font-semibold transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         
-                        <a href="https://github.com/spmchugh" className="w-3/4 text-center bg-[var(--accent-primary)] text-[var(--text-primary)] py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://github.com/spmchugh" className="w-3/4 text-center bg-[var(--accent-primary)] text-[var(--text-button)] py-3 px-6 rounded font-semibold transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">GitHub</a>
                         
-                        <a href="" className="w-3/4 text-center bg-[var(--accent-primary)] text-[var(--text-primary)] py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">Resume</a>
+                        <a href="" className="w-3/4 text-center bg-[var(--accent-primary)] text-[var(--text-button)] py-3 px-6 rounded font-semibold transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_var(--accent-primary)]/40" target="_blank" rel="noopener noreferrer">Resume</a>
                     </div>
                 </div>
             </ScrollReveal>

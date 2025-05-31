@@ -6,25 +6,30 @@
   --background-opposite: #000000;
   --text-primary: #000000;
   --text-secondary: #1E2939;
-  --accent-primary: #426AA1;
-  --accent-secondary: #415D43;
+  --text-button: #E8E9F3;
+  --accent-primary: #1C5D99;
+  --accent-secondary: #7A9E7E;
   --border-color: rgba(0, 0, 0, 0.1);
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     
     --background: #121212;
     --background-opposite: #E8E9F3;
     --text-primary: #E8E9F3;
     --text-secondary: #adadad;
+    --text-button: #E8E9F3;
     --accent-primary: #1C5D99;
     --accent-secondary: #7A9E7E;
     --border-color: rgba(255, 255, 255, 0.1);
   }
-}
+} */
 
+html {
+  scroll-behavior: smooth;
+}
 
 html, body {
   margin: 0;

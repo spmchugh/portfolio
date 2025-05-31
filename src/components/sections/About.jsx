@@ -10,9 +10,9 @@ export const About = () => {
         <section id = "about" className = "min-h-screen flex items-center justify-center py-20">
             <ScrollReveal>
                 <div className = "max-w-4xl mx-auto px-4">
-                    <h2 className="text-4xl font-semibold mb-8 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] bg-clip-text text-transparent text-center">About Me</h2>
+                    <h2 className="text-5xl font-semibold mb-8 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] bg-clip-text text-transparent text-center leading-relaxed pb-1">About Me</h2>
 
-                    <div className = "rounded-xl p-8 border-[var(--text-primary)]/50 border hover:-translate-y-1 transition-all">
+                    <div className = "rounded-xl p-8 border-[var(--text-primary)]/50 border hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
                         <p className = "mb-6">I'm Sean, a recent college graduate with a strong foundation in data analytics. I'm passionate about transforming data into insights and solutions. Through a diverse range of coursework and hands-on experience, I've worked with a wide range of programming languages, tools, and software. I'm excited to apply these skills to help organizations make informed decisions and lead to success.</p>
                         <div className = "grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -37,8 +37,8 @@ export const About = () => {
                         </div>
                     </div>
 
-                    <div className = "grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className = "p-6 rounded-xl border-[var(--text-primary)]/50 border hover:-translate-y-1 transition-all">
+                    <div className = "grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 ">
+                        <div className = "p-6 rounded-xl border-[var(--text-primary)]/50 border hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
                             <h3 className = "text-xl font-semibold mb-4">Education</h3>
                             <ul className = "list-disc list-inside space-y-2">
                                 <li>
@@ -55,7 +55,7 @@ export const About = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className = "p-6 rounded-xl border-[var(--text-primary)]/50 border hover:-translate-y-1 transition-all">
+                        <div className = "p-6 rounded-xl border-[var(--text-primary)]/50 border hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
                             <h3 className = "text-xl font-semibold mb-4">Experience</h3>
                             <div className = "space-y-4">
                                 <div>

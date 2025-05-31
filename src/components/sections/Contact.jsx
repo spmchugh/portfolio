@@ -23,7 +23,7 @@ export const Contact = () => {
         <section id = "contact" className = "min-h-screen flex items-center justify-center py-20">
             <ScrollReveal>
                 <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
-                    <h2 className = "text-4xl font-semibold mb-8 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] bg-clip-text text-transparent text-center">Email Me!</h2>
+                    <h2 className = "text-5xl font-semibold mb-8 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] bg-clip-text text-transparent text-center leading-relaxed pb-1">Email Me!</h2>
                     <form className = "space-y-6" onSubmit = {handleSubmit}>
                         <div className = "relative">
                             <input type = "text" id = "name" name = "name" required value = {formData.name} className = "w-full bg-[var(--background)]/5 border border-[var(--text-primary)]/10 rounded px-4 py-3 text-[var(--text-primary)] transition focus:outline-none focus:border-[var(--accent-secondary)] focus:bg-[var(--background-opposite)]/10" placeholder = "Name..." onChange = {(e) => setFormData({...formData, name: e.target.value})}/>
