@@ -2,9 +2,10 @@ import { ScrollReveal } from "../ScrollReveal";
 
 export const About = () => {
 
-    const languages = ["Python", "Java", "JavaScript", "C", "C++", "R", "SQL", "HTML", "CSS", "Haskell"];
-
+    const languages = ["Python", "Java", "JavaScript", "C", "C++", "R", "SQL", "HTML", "CSS", "Haskell", "Assembly"];
     const dataTools = ["Tableau", "Tableau Prep", "Power BI", "Excel", "Stata", "RStudio"];
+    const webDev = ["Node.js", "React", "Tailwind", "Vite", "Flask", "Bootstrap"]
+    const cloudTools = ["GCP", "AWS", "Azure"]
 
     return (
         <section id = "about" className = "min-h-screen flex items-center justify-center py-20">
@@ -13,7 +14,9 @@ export const About = () => {
                     <h2 className="text-5xl font-semibold mb-8 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] bg-clip-text text-transparent text-center leading-relaxed pb-1">About Me</h2>
 
                     <div className = "rounded-xl p-8 border-[var(--text-primary)]/50 border hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
-                        <p className = "mb-6">I'm Sean, a recent college graduate with a strong foundation in data analytics. I'm passionate about transforming data into insights and solutions. Through a diverse range of coursework and hands-on experience, I've worked with a wide range of programming languages, tools, and software. I'm excited to apply these skills to help organizations make informed decisions and lead to success.</p>
+                        <p className = "mb-6">
+                            Hi, I'm Sean, a recent college graduate with a foundation in data analytics and coding. Through a variety of coursework and hands-on projects, I've gained experience with a wide range of programming languages, tools, and software. I'm looking to apply these skills to organizations to make data-driven decisions which lead to success.</p>
+
                         <div className = "grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className = "text-xl font-semibold mb-4">Languages</h3>
@@ -27,13 +30,30 @@ export const About = () => {
                             <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className = "text-xl font-semibold mb-4">Data Analysis</h3>
                                 <div className = "flex flex-wrap gap-2">
-                                    {dataTools.map((tool, key) => (
-                                        <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{tool}</span>
+                                    {dataTools.map((dataTool, key) => (
+                                        <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{dataTool}</span>
                                     ))}
                                 </div>
                             </div>
 
-                            
+                            <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className = "text-xl font-semibold mb-4">Web Development</h3>
+                                <div className = "flex flex-wrap gap-2">
+                                    {webDev.map((webTool, key) => (
+                                        <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{webTool}</span>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className = "text-xl font-semibold mb-4">Cloud Technologies</h3>
+                                <div className = "flex flex-wrap gap-2">
+                                    {cloudTools.map((cloudTool, key) => (
+                                        <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{cloudTool}</span>
+                                    ))}
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
@@ -60,10 +80,10 @@ export const About = () => {
                             <div className = "space-y-4">
                                 <div>
                                     <h4><strong>Intern Analyst at The McHugh Group, LLC</strong> <i>(Summer 2024)</i></h4>
-                                    <p>Analyzed client data to develop a comprehensive business report and used historical stock market data to identify potential investment opportunities in the technology sector.</p>
+                                    <p>Analyzed client data to produce a comprehensive business report and used market data and trends to identify potential investment opportunities in the technology sector.</p>
                                     <div className="my-4" />
                                     <h4><strong>Digital IT Intern at Parker Hannifin</strong> <i>(Summer 2023)</i></h4>
-                                    <p>Automated repetitive tasks using Azure, including notifications for expiring website certificates and extraction of project data. Also developed Power BI dashboards to support sprint planning.</p>
+                                    <p>Automated repetitive tasks using Azure and Python, including notifications for expiring website certificates and extraction of project information, and developed Power BI dashboards to support sprint planning.</p>
                                 </div>
 
                             </div>

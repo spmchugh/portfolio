@@ -10,7 +10,7 @@ export const Projects = () => {
 
                         <div className = "p-6 rounded-xl border border-[var(--text-primary)]/50 hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
                             <h3 className = "text-xl font-semibold mb-2">Portfolio Website</h3>
-                            <p className = "text-[var(--text-secondary)] mb-4">The website you are currently on. I created this website to work on my frontend development skills and to showcase parts of my resume in a different format, focusing on skills, experience, education, and projects.</p>
+                            <p className = "text-[var(--text-secondary)] mb-4">You're currently viewing my portfolio website. I designed and built it to develop my frontend skills. It is an extension of my resume, further highlighting my skills, experience, education, and projects.</p>
                             <div className = "flex flex-wrap gap-2 mb-4">
                             {["JavaScript", "HTML", "CSS", "React", "Vite", "Tailwind CSS"].map((tech, key) => (
                                 <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{tech}</span>
@@ -24,7 +24,7 @@ export const Projects = () => {
 
                         <div className = "p-6 rounded-xl border border-[var(--text-primary)]/50 hover:-translate-y-1 hover:border-[var(--accent-primary)] hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition-all">
                             <h3 className = "text-xl font-semibold mb-2">Discord Bot</h3>
-                            <p className = "text-[var(--text-secondary)] mb-4">A Discord bot that tracks player information and statistics, and allow users to display this information in their Discord server. Supports player account registration, rank tracking, player information, and leaderboards.</p>
+                            <p className = "text-[var(--text-secondary)] mb-4">A Discord bot designed to track and display player statistics directly in Discord servers. It supports player account registration, rank tracking, on-demand stat retrieval, and dynamic leaderboards.</p>
                             <div className = "flex flex-wrap gap-2 mb-4">
                             {["Python", "SQLAlchemy", "REST API", "Matplotlib", "AWS"].map((tech, key) => (
                                 <span key = {key} className = "bg-[var(--accent-primary)]/10 text-[var(--accent-primary)] py-1 px-3 rounded-full text-sm hover:bg-[var(--accent-primary)]/20 hover:shadow-[0_2px_8px_var(--accent-primary)/20] transition">{tech}</span>
