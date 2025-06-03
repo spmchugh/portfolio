@@ -15,12 +15,11 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                         &#9776;
                     </div>
 
-                    <div className = "hidden md:flex items-center space-x-8">
-                        <a href = "#home" className = "text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors">Home</a>
-                        <a href = "#about" className = "text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors">About</a>
-                        <a href = "#projects" className = "text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors">Projects</a>
-                        <a href = "#contact" className = "text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors">Contact</a>
-
+                    <div className="hidden md:flex items-center space-x-8">
+                        <a href="#home" className="text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--accent-primary)] after:transition-all after:duration-300 hover:after:w-full">Home</a>
+                        <a href="#about" className="text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--accent-primary)] after:transition-all after:duration-300 hover:after:w-full">About</a>
+                        <a href="#projects" className="text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--accent-primary)] after:transition-all after:duration-300 hover:after:w-full">Projects</a>
+                        <a href="#contact" className="text-[var(--text-primary)] hover:text-[var(--accent-primary)] transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--accent-primary)] after:transition-all after:duration-300 hover:after:w-full">Contact</a>
                     </div>
                 </div>
             </div>
